@@ -1,11 +1,11 @@
 import os
 import openai
 import config
-# openai.api_key = config.OPENAI_API_KEY
+openai.api_key = config.OPENAI_API_KEY
 
 # import openai
 
-openai.api_key = config['development'].OPENAI_API_KEY
+# openai.api_key = config['development'].OPENAI_API_KEY
 
 # Soft Tech Business Management software, created for small business to manage day to day tasks
 

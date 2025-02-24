@@ -21,3 +21,9 @@ config = {
     'testing': DevelopmentConfig,
     'production': DevelopmentConfig
 }
+
+
+SECRET_KEY = "your-secret-key"  # Replace with a non-sensitive key
+
+    # Load OpenAI API key from environment variable
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
